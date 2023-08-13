@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <div class="wrapper">
+        <div class="wrapper" id="box">
             <h1>The Ultimate Coding Quiz</h1>
             <div class="content">
             <p class="title">JavaScript Fundamentals <span></span></p>
             <p class="about">You will get points for each correct answer and at the end of the Quiz, your total score will be displayed. <span></span></p>
             </div>
-            <button class="start-btn">Start Game</button>
-            <div class="timer">
+            <button class="start-btn" id="start-btn">Start Game</button>
+            <div class="timer" id="timer">
                 <p class="time">Time: 0</p>
             </div>
         </div>
@@ -22,7 +22,7 @@
     
     
     <div id="questions" style="display: none;">
-        <p class="question"></p>
+        <p class="question" id="question"></p>
         <p><button id="answer1"></button></p>
         <p><button id="answer2"></button></p>
         <p><button id="answer3"></button></p>
